@@ -1,13 +1,29 @@
 {
   "name": "calculadora",
   "version": "1.0.0",
-  "main": "calculadoraBasica.js",
+  "description": "Módulo TypeScript com operações matemáticas básicas",
+  "main": "dist/calculadoraBasica.js",
+  "types": "dist/calculadoraBasica.d.ts",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franciscorafaelpires/calculadora.git"
+  },
+  "keywords": ["typescript", "calculator", "math"],
+  "author": "Francisco Rafael Pires",
   "license": "ISC",
-  "description": ""
+  "bugs": {
+    "url": "https://github.com/franciscorafaelpires/calculadora/issues"
+  },
+  "homepage": "https://github.com/franciscorafaelpires/calculadora#readme",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist"
+  ]
 }
